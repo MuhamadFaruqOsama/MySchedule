@@ -1,0 +1,47 @@
+body {
+  font-family: "Slabo 27px", serif;
+  color: #fff;
+  background-color: rgb(10, 10, 10);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.gear a:hover {
+  color: #fff;
+}
+
+.keterangan-header {
+  font-size: 12px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+ul li a:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.c-b {
+  background-color: rgb(10, 10, 10);
+}
+
+a .card:hover {
+  color: #fff;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.clear {
+  clear: both;
+}
